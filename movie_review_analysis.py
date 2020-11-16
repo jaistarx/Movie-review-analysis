@@ -12,7 +12,7 @@ Original file is located at
 !mkdir .kaggle
 
 import json
-token = {"username":"jaistarx","key":"3088649c3e59cc8e05beea2e483aa6f4"}
+token = {"username":"your-username","key":"your-key"}
 with open('/content/.kaggle/kaggle.json', 'w') as file:
     json.dump(token, file)
 
